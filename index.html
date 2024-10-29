@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> test!!! </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADU ALL</title>
+  <link rel="icon" href="ADULogo.png" type="image/png">
+  <style>
+    /* Background gradient from black to bright red */
+    body {
+      background: linear-gradient(90deg, #060606, #ff0000); /* Smooth black to bright red gradient */
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column; /* Stack children vertically */
+      align-items: center; /* Center align the items */
+      justify-content: flex-start; /* Align items to the top */
+      height: 100vh; /* Full viewport height */
+    }
+
+    /* Title styling */
+    .title-container {
+      text-align: center; /* Center the title and paragraph */
+      margin-top: 20px; /* Margin at the top */
+    }
+
+    h1 {
+      font-size: 2.5em; /* Increase font size for the title */
+      color: #ffcc00; /* Gold color for the title */
+      margin: 0; /* Remove default margin */
+    }
+    h3 {
+        font-size: 1.2em; /* Increase font size for the paragraph */
+      color: #ffcc00; /* White color for the paragraph */
+      margin-top: 10px; /* Space above the paragraph */
+    }
+
+    p {
+      font-size: 1.2em; /* Increase font size for the paragraph */
+      color: #ffffff; /* White color for the paragraph */
+      margin-top: 10px; /* Space above the paragraph */
+    }
+
+    /* Container for the list with left border */
+    .list-container {
+      border-left: 2px solid #474747; /* Gray left border */
+      border-radius: 10px;      /* More rounded corners */
+      padding: 20px;            /* Increased padding for better spacing */
+      width: 300px;             /* Wider container */
+      margin-left: 20px;        /* Margin to the left for spacing */
+      margin-top: 20px;         /* Margin at the top */
+      background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+      height: calc(100vh - 100px); /* Fill the remaining height minus margins */
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Smooth shadow effect */
+      position: relative; /* Position relative for potential further styling */
+      left: -20px; /* Shift the border to the far left */
+    }
+
+    /* Left align the list */
+    .left-align {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    /* Style for the list items */
+    .left-align li {
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 1.2em; /* Increase font size */
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+    }
+
+    /* Style for the buttons */
+    .left-align a {
+      text-decoration: none;
+      color: #ffffff; /* Dark color */
+      display: block;
+      background-color: #600000;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    /* Hover effect */
+    .left-align a:hover {
+      background-color: #007bff; /* Light blue background on hover */
+      color: white; /* White text on hover */
+      border-radius: 5px;
+    }
+
+    /* Footer text style */
+    .footer-text {
+      font-size: 0.8em; /* Smaller font size */
+      color: #ffffff; /* White color */
+      text-align: center; /* Center text */
+      margin-top: 20px; /* Margin at the top */
+    }
+  </style>
 </head>
 <body>
-    <h1> hello testing 123 </h1>
+
+  <div class="title-container">
+    <h1>ADU ALL</h1>
+    <p>A website made to make students' lives easier!</p>
+  </div>
+
+  <div class="list-container">
+    <div class = "header"> 
+        <h3> Choose service below:</h3>
+    </div>
+    <ul class="left-align">
+      <li><a href="https://example.com/page1" target="_blank">Common quastions</a></li>
+      <li><a href="https://example.com/page2" target="_blank">All University websites</a></li>
+      <li><a href="https://example.com/page3" target="_blank">Study Plans</a></li>
+      <li><a href="https://example.com/page4" target="_blank">Open Elective and Major Elective Courses</a></li>
+      <li><a href="https://example.com/page5" target="_blank">Calendar</a></li>
+      <li><a href="https://example.com/page5" target="_blank">All Emails</a></li>
+    </ul>
+    <div class="footer-text">
+      Made by Abdulrhman Samir Eid 1088924,<br>
+      Feel free to contact me for any suggestions or bug reports: <br>
+      <a href="mailto:AbdulrhmanSamirEid@outlook.com" style="color: #ffcc00;">AbdulrhmanSamirEid@outlook.com</a>
+    </div>
+  </div>
+
 </body>
 </html>
